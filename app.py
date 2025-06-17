@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # ─── CONFIG ──────────────────────────────────────────────
 st.set_page_config(page_title="Smart Health Dashboard", layout="wide")
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY", "AIzaSyBCoI9VO1SwMAAI5_1_98iDTFeJ2aamyNg"))  # <-- set your key
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY", ""))  # <-- set your key
 
 # ─── LOAD DATA ───────────────────────────────────────────
 RAW = pd.read_csv("apple_health_data.csv",
