@@ -1,0 +1,7 @@
+pandas
+elementpath
+matplotlib
+seaborn
+streamlit
+plotly 
+google-generativeai
